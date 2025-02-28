@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+speechrecognition = "*"
+pyaudio = "*"
+sounddevice = "*"
+gtts = "*"
+ollama = "*"
+pygame = "*"
+pyttsx3 = "==2.71"
+playsound = "*"
+pydub = "*"
+gpt4all = "*"
+soundfile = "==0.12.1"
+pyautogui = "*"
+setuptools-rust = "*"
+tiktoken = "*"
+wheel = "*"
+whisper = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
