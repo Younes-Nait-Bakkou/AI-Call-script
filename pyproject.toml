@@ -1,0 +1,29 @@
+[project]
+name = "AI-Call"
+version = "0.1.0"
+description = "project for testing AI-Call"
+authors = []
+requires-python = "~=3.13"
+dependencies = [
+    "gpt4all>=2.8.2",
+    "gtts>=2.5.4",
+    "ollama>=0.4.7",
+    "playsound>=1.3.0",
+    "pyaudio>=0.2.14",
+    "pyautogui>=0.9.54",
+    "pydub>=0.25.1",
+    "pygame>=2.6.1",
+    "pyttsx3>=2.98",
+    "setuptools>=75.8.2",
+    "sounddevice>=0.5.1",
+    "soundfile>=0.13.1",
+    "speechrecognition>=3.14.1",
+    "tiktoken>=0.9.0",
+    "wheel>=0.45.1",
+    "whisper>=1.1.10",
+]
+
+
+[tool.setuptools]
+py-modules = []
+
